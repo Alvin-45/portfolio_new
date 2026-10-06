@@ -1,4 +1,12 @@
+#fullhome{
+    background-color: #201f1f;
+    color: white;
+    padding: 15px;
+    padding-bottom: 150px;
+}
 #partone{
+    background-color: #201f1f;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +23,42 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 25px;
+    margin-left: 30px;
 }
 #introhead{
     color: rgb(68, 74, 74);
+}
+#imagediv{
+    width: 55%;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url("https://media.licdn.com/dms/image/D4D03AQG0g1k5r6X7xA/profile-displayphoto-shrink_800_800/0/1686740916463?e=1692230400&v=beta&t=8J2j9nWqY1p6Zt5yQK7z8V9l3Ff4J6g5k5J6J6J6J6J");
+    background-size: cover;
+    background-position: center;
+}
+#discription{
+    width: 40%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+}
+#icon svg{
+    width: 20px;
+    height: 30px;
+    color: white;
+}
+#icon #insta:hover{
+    color: rgb(220, 19, 176);
+}
+#icon #facebook:hover{
+    color: rgb(14, 152, 237);
+}
+#icon #linkedin:hover{
+    color: rgb(15, 30, 235);
+}
+#icon #mail:hover{
+    color: rgb(224, 17, 17);
 }
