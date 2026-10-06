@@ -1,8 +1,8 @@
-
+import './Projects.css'
 
 function Projects() {
   return (
-    <div>
+    <div id="fullprojectpage">
       <h2>Projects</h2>
       <p>Here are some of my projects:</p>
     </div>

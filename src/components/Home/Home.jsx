@@ -1,6 +1,6 @@
 import '../Home/Home.css'
 import Nav from '../Navbar/Nav'
-import Projects from '../Projects/Projects'
+import Skills from '../Skills/Skills'
 function Home() {
   return (
     <>
@@ -36,7 +36,7 @@ function Home() {
 </svg>
     </div>
     </div>
-    <Projects/>
+    <Skills/>
 </>
   );
 }
