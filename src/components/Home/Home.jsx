@@ -5,7 +5,7 @@ function Home() {
     <>
     <Nav />
     <div id="fullhome">
-
+<div id="partone">
     <div className="home">
       <p id="name">
 <h2>Welcome</h2>
@@ -13,9 +13,11 @@ function Home() {
     </div>
     <div id="discription">
       <p id="introhead">-Introduction</p>
-      <p>Hi, I'm a passionate web developer with a love for creating beautiful and functional websites. I specialize in front-end development and have experience working with various technologies such as HTML, CSS, JavaScript, and React. I enjoy turning ideas into reality and am always eager to learn new skills and stay up-to-date with the latest trends in web development.</p>
+      <h3>Full Stack Developer,Based on India</h3>
+      <p id="intro">I am a passionate Full Stack Developer with expertise in both front-end and back-end development. I specialize in creating dynamic and responsive web applications that deliver exceptional user experiences. With a strong foundation in programming languages, frameworks, and databases, I am dedicated to building scalable and efficient solutions. I thrive in collaborative environments, constantly seeking opportunities to learn and grow as a developer. My goal is to contribute my skills and creativity to develop innovative web applications that make a positive impact.</p>
       <br/>
-      <a href="/about2" ></a><u style={{color:"gold"}}><span>My story</span></u>
+      <a href="/about2" ></a><u style={{color:"gold"}}><span>My story ➔</span></u>
+    </div>
     </div>
     <div id="icon">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">

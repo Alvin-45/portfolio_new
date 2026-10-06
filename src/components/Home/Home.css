@@ -1,10 +1,7 @@
-#fullhome{
-    display: grid;
-    grid-template-columns: fr;
-    grid-template-rows: 1fr;
+#partone{
+    display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     gap: 20px;
 }
 #name{
