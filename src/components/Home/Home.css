@@ -1,11 +1,12 @@
 #fullhome{
-    background-color: #201f1f;
+    background-image: url('https://media.gettyimages.com/id/2168072396/video/3d-animation-of-data-center-or-server-room-with-glowing-led-blue-color-of-business.jpg?s=640x640&k=20&c=XKkx0OsXnNyA7nCB_ho-HH3ngBc779b5QwpbJpLJxCA=');
     color: white;
     padding: 15px;
     padding-bottom: 150px;
+    width: 100%;
+    background-size: cover;
 }
 #partone{
-    background-color: #201f1f;
     color: white;
     display: flex;
     justify-content: center;
