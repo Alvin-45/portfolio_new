@@ -1,25 +1,42 @@
 import '../Home/Home.css'
 import Nav from '../Navbar/Nav'
 import Skills from '../Skills/Skills'
+import Typewriter from "typewriter-effect";
+
 function Home() {
   return (
     <>
     <Nav />
     <div id="fullhome">
 <div id="partone" className="row">
-    <div className="col-md-4">
-      <p id="name">
-<h2>Welcome</h2>
-      </p>
+    <div className="col-md-6">
+      <div id="name">
+<h2>Hello I'm</h2>
+<h1 id='namefull'>Alvin Joy</h1>
+      </div>
+      <div className='d-flex' style={{width:'100%'}}>
+        <p className="text-light fw-bolder">I'M A :</p>
+        <span className='name2 fw-bolder'>
+            <Typewriter
+              options={{
+                                strings: ["FRONTEND DEVELOPER", "REACT DEVELOPER", "BACKEND DEVELOPER"],
+                                autoStart: true,
+                                loop: true,
+              }}
+            />
+        </span>
+
+      </div>
     </div>
-    <div id="imagediv" className="col-md-4"></div>
-    <div id="discription" className="col-md-4">
+    
+    <div id="imagediv" className="col-md-6"></div>
+    {/* <div id="discription" className="col-md-4">
       <p id="introhead">-Introduction</p>
       <h3>Full Stack Developer,Based on India</h3>
       <p id="intro">I am a passionate Full Stack Developer with expertise in both front-end and back-end development. I specialize in creating dynamic and responsive web applications that deliver exceptional user experiences. With a strong foundation in programming languages, frameworks, and databases, I am dedicated to building scalable and efficient solutions. I thrive in collaborative environments, constantly seeking opportunities to learn and grow as a developer. My goal is to contribute my skills and creativity to develop innovative web applications that make a positive impact.</p>
       <br/>
       <a href="/about2" ></a><u style={{color:"gold"}}><span>My story ➔</span></u>
-    </div>
+    </div> */}
     </div>
     <div id="icon">
         <svg id='insta' xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">

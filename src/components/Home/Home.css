@@ -1,17 +1,29 @@
 #fullhome{
-    background-image: url('https://media.gettyimages.com/id/2168072396/video/3d-animation-of-data-center-or-server-room-with-glowing-led-blue-color-of-business.jpg?s=640x640&k=20&c=XKkx0OsXnNyA7nCB_ho-HH3ngBc779b5QwpbJpLJxCA=');
-    color: white;
-    padding: 15px;
-    padding-bottom: 150px;
+    background-image: url('E:\Portfolio React and Dotnet\portfolio_new\src\assets\hero-bg.jpg');
+    
     width: 100%;
+    height: 100vh;
     background-size: cover;
 }
+/* @keyframes myAnimation {
+  0%   {
+    transform: scale3d(20px);
+  }
+  25%  {transform: scale3d(70px);}
+  50%  {transform: scale3d(140px);}
+  75%  {transform: scale3d(70px);}
+  100% {transform: scale3d(0px);}
+} */
 #partone{
-    color: white;
+    padding: 15px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    /* animation: myAnimation;
+    animation-duration: 4s;
+    animation-delay: 2s; */
 }
 #name{
     font-family: "Archivo Black", sans-serif;
@@ -63,3 +75,10 @@
 #icon #mail:hover{
     color: rgb(224, 17, 17);
 }
+#namefull{
+    background: linear-gradient(125deg, #15b9f9 75%, #dd05f59c 15%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
