@@ -23,4 +23,17 @@ a:hover{
     position:fixed;
     width: 100%;
     top: 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    z-index: 9999;
+    
+}
+#logo{
+    background: linear-gradient(90deg, #00CFFF, #4263EB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 30px;
+  font-weight: 800;
 }

@@ -9,34 +9,38 @@ function Home() {
     <Nav />
     <div id="fullhome">
 <div id="partone" className="row">
-    <div className="col-md-6">
+    <div id='leftpart' className="col-md-6">
       <div id="name">
-<h2>Hello I'm</h2>
+<h5 id='i1'>Hello I'm</h5>
 <h1 id='namefull'>Alvin Joy</h1>
       </div>
-      <div className='d-flex' style={{width:'100%'}}>
-        <p className="text-light fw-bolder">I'M A :</p>
+      <div className='' style={{width:'100%'}}>
         <span className='name2 fw-bolder'>
             <Typewriter
               options={{
-                                strings: ["FRONTEND DEVELOPER", "REACT DEVELOPER", "BACKEND DEVELOPER"],
+                                strings: ["FRONTEND DEVELOPER", "REACT DEVELOPER", "BACKEND DEVELOPER","DOTNET DEVELOPER"],
                                 autoStart: true,
                                 loop: true,
               }}
             />
         </span>
-
+        <br />
+<p id="intro">
+  Craftinng  innnovative digital experiences with cutting-eddge technologies.Specialized in MEA(R)N  Stack and .NET Framework.
+  </p>
+      </div>
+      <div id="buttonscv">
+        <button id='dwnloadbbtn' className='btn btn'  >Download</button>
+        <button id='contactbbtn' className='btn btn'  >Contact Me</button>
       </div>
     </div>
     
-    <div id="imagediv" className="col-md-6"></div>
-    {/* <div id="discription" className="col-md-4">
-      <p id="introhead">-Introduction</p>
-      <h3>Full Stack Developer,Based on India</h3>
-      <p id="intro">I am a passionate Full Stack Developer with expertise in both front-end and back-end development. I specialize in creating dynamic and responsive web applications that deliver exceptional user experiences. With a strong foundation in programming languages, frameworks, and databases, I am dedicated to building scalable and efficient solutions. I thrive in collaborative environments, constantly seeking opportunities to learn and grow as a developer. My goal is to contribute my skills and creativity to develop innovative web applications that make a positive impact.</p>
-      <br/>
-      <a href="/about2" ></a><u style={{color:"gold"}}><span>My story ➔</span></u>
-    </div> */}
+    <div id="imagediv" className="col-md-6">
+          <div className="glow-square square-top"></div>
+      <img id='myimmg' src="../src/assets/Arms-Crossed Young Man Cutout.png"/>
+          <div className="glow-square square-bottom"></div>
+    </div>
+    
     </div>
     <div id="icon">
         <svg id='insta' xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
