@@ -45,11 +45,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 
     background: rgba(4, 12, 30, 0.25);
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
 }
+
 #icon{
     display: flex;
     justify-content: start;
@@ -66,7 +68,7 @@
 
 #imagediv {
     width: 30%;
-    height: 440px;
+    /* height: 440px; */
     position: relative;
 
     display: flex;
@@ -128,8 +130,10 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  font-family: "Archivo Black", sans-serif;
-
+font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
 }
 #dwnloadbbtn{
   background: linear-gradient(90deg, #00CFFF, #4263EB);  
@@ -148,6 +152,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 26px;
 }
 .glow-square {
     position: absolute;
@@ -179,4 +184,56 @@
         #8a2be2,
         #d000ff
     );
+}
+
+
+
+/* -----MEDIA QUERY-------- */
+@media screen and (max-width:1091px){
+    .glow-square{
+        width: 58px;
+        height: 58px;
+    }
+}
+@media screen and (max-width:900px){
+    .square-top {
+    top: 8px;
+    right: 10px;
+
+    background: linear-gradient(
+        135deg,
+        #00cfff,
+        #5533ff
+    );
+}
+
+.square-bottom {
+    bottom: 15px;
+    left: 10px;
+
+    background: linear-gradient(
+        135deg,
+        #8a2be2,
+        #d000ff
+    );
+}
+.glow-square {
+    width: 75px;
+    height: 75px;
+}
+#partone{
+    display: block;
+}
+#leftpart,#buttonscv,#intro{
+    width: 100%;
+    text-align: center;
+}
+#icon{
+    justify-content: space-around;
+}
+#imagediv{
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 25%;
+}
 }
