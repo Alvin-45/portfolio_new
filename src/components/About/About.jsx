@@ -25,7 +25,7 @@ Beyond coding, I enjoy experimenting with new ideas, working on personal project
         </div>
         <div id="boxesclub" style={{display:"flex",justifyContent:"space-around",alignItems:"center",gap:"10px"}}>
             <div id="box1" className='bx1'>
-                <h1 id="symbbol"></h1>
+                <h1 id="symbol"></h1>
             </div>
             <div id="box2" className='bx1'></div>
             <div id="box3" className='bx1'></div>
