@@ -102,7 +102,7 @@
 }
 #icon svg{
     width: 20px;
-    height: 30px;
+    height: 20px;
     color: white;
 }
 #icon #insta:hover{
@@ -185,7 +185,11 @@ font-family: "JetBrains Mono", monospace;
         #d000ff
     );
 }
-
+.iconenew{
+    border: 1px black solid;
+    border-radius: 50%;
+    background-color: black;
+}
 
 
 /* -----MEDIA QUERY-------- */

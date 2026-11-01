@@ -1,12 +1,74 @@
 #fullprojectpage{
 
-     padding: 15px;
-     padding-bottom: 150px;
+     background-color: #060606;
+    color: white;
+    padding: 55px;
+    padding-bottom: 150px;
  }
- #fullprojectpage h2{
-     font-size: 30px;
-     font-family: "Archivo Black", sans-serif;
-  font-weight: 400;
+#head1{
+    width: 100%;
+    background: linear-gradient(90deg, #00CFFF, #4263EB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 900;
   font-style: normal;
   text-align: center;
- }
+  margin-top: 20px;
+}
+.projectdesc{
+    color: grey;
+    text-align: center;
+}
+#boxesclubbed{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.boxproj{
+    width: 25%;
+    height: 600px;
+    margin: 20px;
+    border: 1px  solid  #00CFFF;
+    border-radius: 15px;
+    padding: 5px;
+}
+.imgproj{
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.projname{
+    text-align: center;
+    font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  margin-top: 5px;
+}
+.projdesrc{
+    color: grey;
+    padding:20px;
+}
+.projlist{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.projlistcont{
+    border: #00CFFF 1px solid;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 48px;
+    width: 25%;
+    background: rgba(5, 37, 97, 0.679);
+    border-radius: 15px;
+    color: #00CFFF;
+    text-align: center;
+    margin-bottom: 5px;
+    align-content: center;
+}
