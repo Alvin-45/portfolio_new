@@ -4,10 +4,23 @@
     padding: 15px;
     padding-bottom: 150px;
 }
-.cards{
+#skillcards{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
+}
+#head1{
+    width: 100%;
+    background: linear-gradient(90deg, #00CFFF, #4263EB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  text-align: center;
+  margin-top: 20px;
 }
