@@ -4,7 +4,7 @@ import './Skills.css'
 import { data } from "react-router-dom";
 function Skills() {
   const skills = [
-    { frontend: [{ name: 'HTML', level: 'Advanced' },{ name: 'CSS', level: 'Advanced' },{ name: 'JavaScript', level: 'Intermediate' },{ name: 'React', level: 'Intermediate' },{ name: 'Bootstrap', level: 'Intermediate' },{ name: 'Tailwind CSS', level: 'Intermediate' },{ name: 'Material UI', level: 'Intermediate' },{ name: 'Redux', level: 'Beginner' },{ name: 'Next.js', level: 'Beginner' },{ name: 'TypeScript', level: 'Beginner' }] },
+    { frontend: [{ name: 'React', level: '95%' },{ name: 'Bootstrap', level: 'Intermediate' },{ name: 'Tailwind CSS', level: 'Intermediate' },{ name: 'Material UI', level: 'Intermediate' },{ name: 'Redux', level: 'Beginner' },{ name: 'Next.js', level: 'Beginner' },{ name: 'TypeScript', level: 'Beginner' }] },
     { backend: [{ name: 'Node.js', level: 'Intermediate' },{ name: 'Express.js', level: 'Intermediate' },{ name: 'MongoDB', level: 'Intermediate' },{ name: 'MySQL', level: 'Beginner' },{ name: 'PostgreSQL', level: 'Beginner' }] },
     { database: [{ name: 'MongoDB', level: 'Intermediate' },{ name: 'MySQL', level: 'Beginner' },{ name: 'PostgreSQL', level: 'Beginner' }] }
   ];
