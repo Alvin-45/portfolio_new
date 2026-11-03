@@ -6,9 +6,9 @@
 }
 #skillcards{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
     flex-wrap: wrap;
 }
 #head1{
@@ -23,4 +23,43 @@
   font-style: normal;
   text-align: center;
   margin-top: 20px;
+}
+.skill-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.skill-level {
+    height: 100%;
+    background: linear-gradient(90deg, #00CFFF, #4263EB);
+    border-radius: 5px;
+}
+.skillname{
+    color: white;
+
+}
+.skill-card{
+    background-color: black;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0px 4px 10px 10px  #00d0ff68;
+    gap: 10px;
+    height: 330px;
+    margin-top: 60px;
+}
+.skillhead{
+    font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  margin-bottom: 10px;
+  color: white;
+}
+.headdesrc{
+    color: grey;
+    text-align: center;
 }

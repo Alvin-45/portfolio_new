@@ -4,22 +4,26 @@ import './Skills.css'
 import { data } from "react-router-dom";
 function Skills() {
   const skills = [
-    { frontend: [{ name: 'React', level: '95%' },{ name: 'Bootstrap', level: 'Intermediate' },{ name: 'Tailwind CSS', level: 'Intermediate' },{ name: 'Material UI', level: 'Intermediate' },{ name: 'Redux', level: 'Beginner' },{ name: 'Next.js', level: 'Beginner' },{ name: 'TypeScript', level: 'Beginner' }] },
-    { backend: [{ name: 'Node.js', level: 'Intermediate' },{ name: 'Express.js', level: 'Intermediate' },{ name: 'MongoDB', level: 'Intermediate' },{ name: 'MySQL', level: 'Beginner' },{ name: 'PostgreSQL', level: 'Beginner' }] },
-    { database: [{ name: 'MongoDB', level: 'Intermediate' },{ name: 'MySQL', level: 'Beginner' },{ name: 'PostgreSQL', level: 'Beginner' }] }
+    { Frontend: [{ name: 'React', level: '95%' },{ name: 'Bootstrap', level: '90%' },{ name: 'Tailwind CSS', level: '75%' },{ name: 'Redux', level: '80%' },{ name: 'TypeScript', level: '60%' }] },
+    { Backend: [{ name: 'Node.js', level: '80%' },{ name: 'Express.js', level: '80%' },{ name: 'MongoDB', level: '90%' }] },
+    { Database: [{ name: 'MongoDB', level: '90%' },{ name: 'MySQL', level: '50%' },{ name: 'Oracle', level: '98%' }] }
   ];
   return (
     <div id="fullskillpage">
       <h2 id="head1" >Skills & Experiences</h2>
+      <p className="headdesrc">Technologies and skills I have worked with</p>
       <div id="skillcards">
         {skills.map((skillCategory, index) => (
           <Card key={index} className="skill-card">
             <Card.Body>
-              <Card.Title>{Object.keys(skillCategory)[0]}</Card.Title>
+              <Card.Title className="skillhead">{Object.keys(skillCategory)[0]}</Card.Title>
               <Card.Text>
                 {skillCategory[Object.keys(skillCategory)[0]].map((skill, idx) => (
                   <div key={idx}>
-                    <strong>{skill.name}</strong> - {skill.level}
+                    <strong className="skillname">{skill.name}</strong>     
+                    <div className="skill-bar">
+                      <div className="skill-level" style={{ width: skill.level }}></div>
+                    </div>
                   </div>
                 ))}
               </Card.Text>
