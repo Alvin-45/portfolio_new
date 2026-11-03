@@ -1,0 +1,41 @@
+.head1{
+    width: 100%;
+    background: linear-gradient(90deg, #00CFFF, #4263EB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  text-align: center;
+  margin-top: 20px;
+}
+.fullcontactpage{
+    background-color: #060606;
+    color: white;
+    padding: 15px;
+    padding-bottom: 150px;
+}
+.contactdesrc{
+    color: gray;
+    text-align: center;
+}
+#fullcontactform{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
+.contacthead{
+    font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  margin-bottom: 10px;
+  color: white;
+}
+.contactdesrc{
+    color: gray;
+    text-align: center;
+}

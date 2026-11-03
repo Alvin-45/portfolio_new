@@ -5,7 +5,7 @@ import { data } from "react-router-dom";
 function Skills() {
   const skills = [
     { Frontend: [{ name: 'React', level: '95%' },{ name: 'Bootstrap', level: '90%' },{ name: 'Tailwind CSS', level: '75%' },{ name: 'Redux', level: '80%' },{ name: 'TypeScript', level: '60%' }] },
-    { Backend: [{ name: 'Node.js', level: '80%' },{ name: 'Express.js', level: '80%' },{ name: 'MongoDB', level: '90%' }] },
+    { Backend: [{ name: 'Node.js', level: '80%' },{ name: 'Express.js', level: '80%' },{ name: 'MongoDB', level: '90%' },{ name: '.NET', level: '75%' },{ name: 'C#', level: '65%' }] },
     { Database: [{ name: 'MongoDB', level: '90%' },{ name: 'MySQL', level: '50%' },{ name: 'Oracle', level: '98%' }] }
   ];
   return (
