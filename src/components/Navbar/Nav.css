@@ -1,39 +1,84 @@
-#nav-list li{
-    margin: 0 10px;
-    padding: 10px;
-    color: white;
-    font-size: 16px;
+
+html {
+    scroll-behavior: smooth;
 }
-a{
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65px;
+    padding: 0 7%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    z-index: 1000;
+
+    background: transparent;
+    border-bottom: 1px solid transparent;
+
+    transition: all 0.4s ease;
+}
+
+/* Glass effect when scrolling */
+
+.navbar.scrolled {
+    background: rgba(8, 15, 35, 0.65);
+
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Logo */
+
+#logo {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 800;
+    color: #00CFFF;
+}
+
+/* Navigation links */
+
+#navend {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navend li a {
     text-decoration: none;
     color: white;
+    font-size: 15px;
+    transition: 0.3s ease;
 }
-#navend{
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    gap: 20px;
+
+#navend li a:hover {
+    color: #00CFFF;
 }
-a:hover{
-    color: cyan;
-    text-decoration: underline;
-}
-#nav-list{
-    color: white;
-    position:fixed;
-    width: 100%;
-    top: 0;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    z-index: 9999;
-    
-}
-#logo{
-    background: linear-gradient(90deg, #00CFFF, #4263EB);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  font-size: 30px;
-  font-weight: 800;
+
+/* Mobile */
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        padding: 0 4%;
+    }
+
+    #navend {
+        gap: 12px;
+    }
+
+    #navend li a {
+        font-size: 11px;
+    }
 }

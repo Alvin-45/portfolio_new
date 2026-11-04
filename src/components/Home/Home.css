@@ -100,23 +100,8 @@
     text-align: justify;
     color: rgba(255, 255, 255, 0.805);
 }
-#icon svg{
-    width: 20px;
-    height: 20px;
-    color: white;
-}
-#icon #insta:hover{
-    color: rgb(220, 19, 176);
-}
-#icon #facebook:hover{
-    color: rgb(14, 152, 237);
-}
-#icon #linkedin:hover{
-    color: rgb(15, 30, 235);
-}
-#icon #mail:hover{
-    color: rgb(224, 17, 17);
-}
+
+
 #i1{
     width: 100%;
     background: linear-gradient(90deg, #00CFFF, #4263EB);
@@ -241,3 +226,57 @@ font-family: "JetBrains Mono", monospace;
     margin-left: 25%;
 }
 }
+#icon svg{
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+#icon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin-left: 30px;
+}
+
+#icon a {
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 50%;
+    background: rgba(0,0,0,0.4);
+
+    transition: 0.3s ease;
+}
+
+.iconenew {
+    width: 18px;
+    height: 18px;
+    color: white;
+    transition: 0.3s ease;
+}
+
+/* Hover effects */
+
+#github:hover {
+    color: white;
+}
+
+#linkedin:hover {
+    color: #0A66C2;
+}
+
+#mail:hover {
+    color: #00CFFF;
+}
+
+#icon a:hover {
+    transform: translateY(-5px);
+    border-color: #00CFFF;
+    box-shadow: 0 0 12px rgba(0,207,255,0.4);
+}
+

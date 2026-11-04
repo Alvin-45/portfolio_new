@@ -1,41 +1,204 @@
-.head1{
+
+.head1 {
     width: 100%;
     background: linear-gradient(90deg, #00CFFF, #4263EB);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  font-family: "JetBrains Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-style: normal;
-  text-align: center;
-  margin-top: 20px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 20px;
 }
-.fullcontactpage{
+
+.fullcontactpage {
     background-color: #060606;
     color: white;
-    padding: 15px;
-    padding-bottom: 150px;
+    padding: 40px 8%;
+    padding-bottom: 100px;
 }
-.contactdesrc{
+
+.contactdesrc {
     color: gray;
     text-align: center;
+    margin-bottom: 50px;
 }
-#fullcontactform{
+
+#fullcontactform {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    gap: 30px;
+    gap: 50px;
+    max-width: 1100px;
+    margin: auto;
 }
-.contacthead{
+
+#leftside,
+#rightside {
+    width: 50%;
+}
+
+.contacthead {
     font-family: "JetBrains Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-style: normal;
-  margin-bottom: 10px;
-  color: white;
+    font-weight: 900;
+    margin-bottom: 15px;
+    color: white;
 }
-.contactdesrc{
-    color: gray;
-    text-align: center;
+
+.contactheaddesrc {
+    color: grey;
+    line-height: 1.7;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+/* CONTACT CARDS */
+
+#contacticons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.boxcontact {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    background: linear-gradient(90deg, #011c22, #040b26);
+    border-radius: 8px;
+    border: 1px solid #102a36;
+    transition: 0.3s ease;
+}
+
+.boxcontact:hover {
+    border-color: #00d2ff;
+    box-shadow: 0 0 15px #00d2ff33;
+    transform: translateY(-3px);
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #082c3a;
+    border-radius: 8px;
+    color: #00d2ff;
+}
+
+.icon svg {
+    width: 22px;
+    height: 22px;
+}
+
+.secondpart p {
+    margin: 0;
+}
+
+.namett {
+    color: grey;
+    font-size: 12px;
+}
+
+.valueoffn {
+    color: white;
+    font-size: 14px;
+    margin-top: 5px !important;
+}
+
+.github-link {
+    color: #00d2ff;
+    text-decoration: none;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.github-link:hover {
+    color: white;
+}
+
+/* CONTACT FORM */
+
+#rightside {
+    padding: 25px;
+    background: linear-gradient(145deg, #080e19, #050a13);
+    border: 1px solid #12313d;
+    border-radius: 12px;
+    box-shadow: 0 0 20px #00d2ff22;
+}
+
+#rightside form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#rightside label {
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#rightside input,
+#rightside textarea {
+    width: 100%;
+    background-color: #05080f;
+    border: 1px solid #182b3a;
+    border-radius: 8px;
+    padding: 12px;
+    color: white;
+    outline: none;
+    font-size: 13px;
+    transition: 0.3s ease;
+}
+
+#rightside input:focus,
+#rightside textarea:focus {
+    border-color: #00d2ff;
+    box-shadow: 0 0 8px #00d2ff33;
+}
+
+#rightside textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+#rightside button {
+    background: linear-gradient(90deg, #00cfff, #0099ff);
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    color: #001018;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#rightside button:hover {
+    box-shadow: 0 0 15px #00d2ff88;
+    transform: translateY(-2px);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    .fullcontactpage {
+        padding: 30px 5%;
+    }
+
+    #fullcontactform {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    #leftside,
+    #rightside {
+        width: 100%;
+    }
+
 }
