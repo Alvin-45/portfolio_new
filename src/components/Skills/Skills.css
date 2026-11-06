@@ -11,6 +11,10 @@
     gap: 30px;
     flex-wrap: wrap;
 }
+
+.skilllevel{
+    color: white;
+}
 #head1{
     width: 100%;
     background: linear-gradient(90deg, #00CFFF, #4263EB);

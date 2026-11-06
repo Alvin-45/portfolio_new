@@ -92,6 +92,15 @@
   font-style: normal;
 }
 @media screen and (max-width:900px) {
+    #aboutfullbody{
+        padding: 20px;
+        padding-bottom: 100px;
+    }
+    #partone{
+        width: 100%;
+        text-align: center;
+        padding: 80px 20px 0px 20px;
+    }
     #aboutfull{
         flex-wrap: wrap;
     }
@@ -103,5 +112,25 @@
         width: 100%;
         margin-top: 20px;
     }
-    
+    #boxesclub{
+        flex-wrap: wrap;
+    }
+    .bx1{
+        width: 100%;
+        margin-top: 20px;
+    }
+    #icon{
+        justify-content: space-evenly;
+    }
+    .glow-square {
+        width: 23%;
+        height: 23%;
+    }
+}
+@media screen and (max-width:900px) {
+
+    .glow-square {
+        width: 23%;
+        height: 23%;
+    }
 }
