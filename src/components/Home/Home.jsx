@@ -81,7 +81,7 @@ function Home() {
     
     <div id="imagediv">
           <div className="glow-square square-top"></div>
-      <img id='myimmg' src="/src/assets/Arms-Crossed Young Man Cutout.png"/>
+      <img id='myimmg' src="/assets/Arms-Crossed Young Man Cutout.png"/>
           <div className="glow-square square-bottom"></div>
     </div>
     
