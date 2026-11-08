@@ -12,7 +12,7 @@ function Projects() {
       projectname:"ChatBoat",
       projectdescr:"A messenger app made using MERN stack inorder to make commuicatin possible between 2 ends with help of Socket.io package.",
       technologies:['React','React Bootstrap','Nodejs','Express.js','Redux'],
-      image:'/src/assets/cboat.png'
+      image:'/assets/cboat.png'
     },
     {
       projectname:"Nike Website Clone",
