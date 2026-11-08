@@ -6,6 +6,7 @@ import Skills from '../Skills/Skills';
 import Projects from '../Projects/Projects';
 import Experience from '../Experience/Experience';
 import Contact from '../Contact/Contact';
+import myimg from '/src/assets/Arms-Crossed Young Man Cutout.png';
 
 function Home() {
   return (
@@ -81,7 +82,7 @@ function Home() {
     
     <div id="imagediv">
           <div className="glow-square square-top"></div>
-      <img id='myimmg' src="/src/assets/Arms-Crossed Young Man Cutout.png"/>
+      <img id='myimmg' src={myimg}/>
           <div className="glow-square square-bottom"></div>
     </div>
     
