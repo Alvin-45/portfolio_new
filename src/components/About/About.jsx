@@ -17,7 +17,7 @@ Beyond coding, I enjoy experimenting with new ideas, working on personal project
                 <h5 id="head2">What I Bring</h5>
                 <ul>
                     <li>2.5+ years of experience</li>
-                    <li>Expertise in HTML,JavaScript,React,Node Js,DotNet,MongoDB,Angular,Express and modern web Technologies</li>
+                    <li>Expertise in HTML, JavaScript, React, Node Js, DotNet, MongoDB, Angular, Express and modern web Technologies</li>
                     <li>Agile methodoogy and collaborative team player.</li>
                     <li>Strong focus on performance optimization and  scalabiliry.</li>
                     </ul>
