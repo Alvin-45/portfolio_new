@@ -1,24 +1,26 @@
 import './Projects.css'
-
+import snapgramimg from '/src/assets/snapgram.png'
+import cboatimg from '/src/assets/cboat.png'
+import nikeimg from '/src/assets/nike.png'
 function Projects() {
   const projects=[
     {
       projectname:"SnapGram-An Insta Clone",
       projectdescr:"Its a clone of Instagram developed using MERN stack using React for frontend  Node,Express.js for backend and MongoDB for database",
       technologies:['React','React Bootstrap','Nodejs','Express.js','Redux','MongoDB'],
-      image:'/src/assets/snapgram.png'
+      image:{snapgramimg}
     },
     {
       projectname:"ChatBoat",
       projectdescr:"A messenger app made using MERN stack inorder to make commuicatin possible between 2 ends with help of Socket.io package.",
       technologies:['React','React Bootstrap','Nodejs','Express.js','Redux'],
-      image:'/assets/cboat.png'
+      image:{cboatimg}
     },
     {
       projectname:"Nike Website Clone",
       projectdescr:"Its a clone of NIKES's Website as on April 10 2024",
       technologies:['React','React Bootstrap','Redux'],
-      image:'/src/assets/nike.png'
+      image:{nikeimg}
     }
   ]
   return (
