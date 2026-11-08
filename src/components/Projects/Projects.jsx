@@ -6,19 +6,19 @@ function Projects() {
       projectname:"SnapGram-An Insta Clone",
       projectdescr:"Its a clone of Instagram developed using MERN stack using React for frontend  Node,Express.js for backend and MongoDB for database",
       technologies:['React','React Bootstrap','Nodejs','Express.js','Redux','MongoDB'],
-      image:'../src/assets/snapgram.png'
+      image:'/src/assets/snapgram.png'
     },
     {
       projectname:"ChatBoat",
       projectdescr:"A messenger app made using MERN stack inorder to make commuicatin possible between 2 ends with help of Socket.io package.",
       technologies:['React','React Bootstrap','Nodejs','Express.js','Redux'],
-      image:'../src/assets/cboat.png'
+      image:'/src/assets/cboat.png'
     },
     {
       projectname:"Nike Website Clone",
       projectdescr:"Its a clone of NIKES's Website as on April 10 2024",
       technologies:['React','React Bootstrap','Redux'],
-      image:'../src/assets/nike.png'
+      image:'/src/assets/nike.png'
     }
   ]
   return (
