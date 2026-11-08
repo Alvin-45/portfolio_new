@@ -3,7 +3,7 @@
     width: 100%;
     min-height: 100vh;
 
-    background-image: url('../src/assets/hero-bg.jpg');
+    background-image: url('/src/assets/hero-bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@
     position: absolute;
     inset: 0;
 
-    background-image: url('../src/assets/hero-bg.jpg');
+    background-image: url('/src/assets/hero-bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
