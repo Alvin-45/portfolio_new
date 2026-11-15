@@ -67,3 +67,11 @@
     color: grey;
     text-align: center;
 }
+@media screen and (max-width:355px){
+    .skill-card{
+        margin-top: 5px;
+    }
+    #fullskillpage{
+        padding-bottom: 50px;
+    }
+}

@@ -94,7 +94,7 @@ function Contact() {
             {contactlink.map((m, index) => (
               <div key={index} className="boxcontact">
 
-                <div className="icon">
+                <div className="iconcontact">
                   {m.icon}
                 </div>
 

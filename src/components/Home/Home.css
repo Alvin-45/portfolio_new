@@ -123,6 +123,10 @@ font-family: "JetBrains Mono", monospace;
 #dwnloadbbtn{
   background: linear-gradient(90deg, #00CFFF, #4263EB);  
 }
+#dwnloadbbtn a{
+    text-decoration: none;
+    color: white;
+}
 .name2 {
     display: inline-block;
     width: 280px; /* Reserve space for the longest title */
@@ -174,57 +178,6 @@ font-family: "JetBrains Mono", monospace;
     border: 1px black solid;
     border-radius: 50%;
     background-color: black;
-}
-
-
-/* -----MEDIA QUERY-------- */
-@media screen and (max-width:1091px){
-    .glow-square{
-        width: 58px;
-        height: 58px;
-    }
-}
-@media screen and (max-width:900px){
-    .square-top {
-    top: 8px;
-    right: 10px;
-
-    background: linear-gradient(
-        135deg,
-        #00cfff,
-        #5533ff
-    );
-}
-
-.square-bottom {
-    bottom: 15px;
-    left: 10px;
-
-    background: linear-gradient(
-        135deg,
-        #8a2be2,
-        #d000ff
-    );
-}
-.glow-square {
-    width: 75px;
-    height: 75px;
-}
-#partone{
-    display: block;
-}
-#leftpart,#buttonscv,#intro{
-    width: 100%;
-    text-align: center;
-}
-#icon{
-    justify-content: space-around;
-}
-#imagediv{
-    width: 50%;
-    margin-top: 10%;
-    margin-left: 25%;
-}
 }
 #icon svg{
     width: 30px;
@@ -280,3 +233,108 @@ font-family: "JetBrains Mono", monospace;
     box-shadow: 0 0 12px rgba(0,207,255,0.4);
 }
 
+
+/* -----MEDIA QUERY-------- */
+@media screen and (max-width:1091px){
+    .glow-square{
+        width: 58px;
+        height: 58px;
+    }
+}
+@media screen and (max-width:900px){
+    .square-top {
+    top: 8px;
+    right: 10px;
+
+    background: linear-gradient(
+        135deg,
+        #00cfff,
+        #5533ff
+    );
+}
+
+.square-bottom {
+    bottom: 15px;
+    left: 10px;
+
+    background: linear-gradient(
+        135deg,
+        #8a2be2,
+        #d000ff
+    );
+}
+.glow-square {
+    width: 75px;
+    height: 75px;
+}
+#partone{
+    display: block;
+}
+#leftpart,#buttonscv,#intro{
+    width: 100%;
+    text-align: center;
+}
+#icon{
+    justify-content: space-around;
+}
+#imagediv{
+    width: 50%;
+    margin-top: 10%;
+    justify-self: center;
+}
+}
+
+/* Media Query */
+@media screen and (max-width:365px){
+    .Typewriter{
+        margin: 0px;
+        padding: 0px;
+        text-align: start;
+    }
+    #buttonscv{
+        flex-wrap: wrap;
+    }
+    #dwnloadbbtn{
+        width: 80%;
+        padding: 10px;
+    } 
+    #contactbbtn{
+        width: 80%;
+        padding: 10px;
+        margin-top: 10px;
+    } 
+    #intro{
+        margin: 5px;
+    }
+    #imagediv{
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 0%;
+    justify-self: center;
+    }
+    .square-top {
+    top: 8px;
+    right: 10px;
+
+    background: linear-gradient(
+        135deg,
+        #00cfff,
+        #5533ff
+    );
+}
+
+.square-bottom {
+    bottom: 15px;
+    left: 10px;
+
+    background: linear-gradient(
+        135deg,
+        #8a2be2,
+        #d000ff
+    );
+}
+.glow-square {
+    width: 75px;
+    height: 75px;
+}
+}

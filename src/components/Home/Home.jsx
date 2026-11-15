@@ -7,6 +7,7 @@ import Projects from '../Projects/Projects';
 import Experience from '../Experience/Experience';
 import Contact from '../Contact/Contact';
 import myimg from '/src/assets/Arms-Crossed Young Man Cutout.png';
+import resume from '/src/assets/Alvin Joy SE Resume Nov.pdf';
 
 function Home() {
   return (
@@ -35,8 +36,13 @@ function Home() {
   </p>
       </div>
       <div id="buttonscv">
-        <button id='dwnloadbbtn' className='btn btn'  >Download</button>
-        <button id='contactbbtn' className='btn btn'  >Contact Me</button>
+        <button id='dwnloadbbtn' className='btn btn'><a href={resume} download="Alvin_Joy_Resume.pdf">
+  Download CV
+</a></button>
+        <button id='contactbbtn' className='btn btn' onClick={() => {
+    document.getElementById("fullcontactpage")
+      ?.scrollIntoView({ behavior: "smooth" });
+  }} >Contact Me</button>
       </div>
       
    <div id="icon">

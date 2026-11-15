@@ -78,7 +78,7 @@
     transform: translateY(-3px);
 }
 
-.icon {
+.iconcontact {
     width: 40px;
     height: 40px;
     min-width: 40px;
@@ -90,7 +90,7 @@
     color: #00d2ff;
 }
 
-.icon svg {
+.iconcontact svg {
     width: 22px;
     height: 22px;
 }
@@ -199,6 +199,47 @@
     #leftside,
     #rightside {
         width: 100%;
+    }
+
+}
+@media (max-width: 235px) {
+
+    .fullcontactpage {
+        padding: 15px;
+    }
+
+    #fullcontactform {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    #leftside,
+    #rightside {
+        width: 100%;
+    }
+    .boxcontact{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .iconcontact svg {
+    width: 100%;
+    height: 80%;
+    }
+    .iconcontact{
+        width: 100%;
+    }
+    .contactheaddesrc{
+        text-align: justify;
+    }
+    #contacticons{
+        padding: 3px;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
     }
 
 }

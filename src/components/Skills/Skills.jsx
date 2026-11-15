@@ -20,7 +20,7 @@ function Skills() {
               <Card.Text>
                 {skillCategory[Object.keys(skillCategory)[0]].map((skill, idx) => (
                   <div key={idx}>
-                    <div classname="silldefflex" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                    <div className="silldefflex" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                       <strong className="skillname">{skill.name}</strong>  <strong className="skilllevel">{skill.level}</strong>
                     </div>
                        
