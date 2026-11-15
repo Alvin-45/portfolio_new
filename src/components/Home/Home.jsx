@@ -7,7 +7,7 @@ import Projects from '../Projects/Projects';
 import Experience from '../Experience/Experience';
 import Contact from '../Contact/Contact';
 import myimg from '/src/assets/Arms-Crossed Young Man Cutout.png';
-import resume from '/src/assets/Alvin Joy SE Resume Nov.pdf';
+import resume from '/src/assets/Alvin Joy Software dev Resume Nov.pdf';
 
 function Home() {
   return (
