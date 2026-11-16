@@ -32,7 +32,7 @@ function Home() {
         </span>
         <br />
 <p id="intro">
-  Craftinng  innnovative digital experiences with cutting-eddge technologies.Specialized in MEA(R)N  Stack and .NET Framework.
+  Craftinng  innnovative digital experiences with cutting-edge technologies.Specialized in MEA(R)N  Stack and .NET Framework.
   </p>
       </div>
       <div id="buttonscv">

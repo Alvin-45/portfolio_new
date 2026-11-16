@@ -126,11 +126,7 @@
         width: 23%;
         height: 23%;
     }
-}
-@media screen and (max-width:900px) {
-
-    .glow-square {
-        width: 23%;
-        height: 23%;
+    #aboutfull{
+        padding: 5px;
     }
 }

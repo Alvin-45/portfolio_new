@@ -190,7 +190,7 @@ html {
 
 /* MOBILE HAMBURGER - 350PX AND BELOW */
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 425px) {
 
     .navbar {
         height: 60px;
