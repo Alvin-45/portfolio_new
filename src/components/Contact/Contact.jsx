@@ -67,7 +67,7 @@ function Contact() {
   };
 
   return (
-    <div className="fullcontactpage">
+    <div id="fullcontactpage">
 
       <h1 className="head1">Get in Touch</h1>
 

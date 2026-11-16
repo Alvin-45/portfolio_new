@@ -127,6 +127,11 @@ font-family: "JetBrains Mono", monospace;
     text-decoration: none;
     color: white;
 }
+
+#contactbbtn a{
+    text-decoration: none;
+    color: white;
+}
 .name2 {
     display: inline-block;
     width: 280px; /* Reserve space for the longest title */

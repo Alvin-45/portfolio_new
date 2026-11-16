@@ -11,7 +11,7 @@
     margin-top: 20px;
 }
 
-.fullcontactpage {
+#fullcontactpage {
     background-color: #060606;
     color: white;
     padding: 40px 8%;
@@ -187,7 +187,7 @@
 
 @media (max-width: 768px) {
 
-    .fullcontactpage {
+    #fullcontactpage {
         padding: 30px 5%;
     }
 
@@ -204,7 +204,7 @@
 }
 @media (max-width: 235px) {
 
-    .fullcontactpage {
+    #fullcontactpage {
         padding: 15px;
     }
 

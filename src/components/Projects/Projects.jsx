@@ -46,7 +46,7 @@ function Projects() {
 </div>
         ))}
       </div>
-      <p id="linkmore"><u> See more</u></p>
+      {/* <p id="linkmore"><u> See more</u></p> */}
       </div>
   );
 }

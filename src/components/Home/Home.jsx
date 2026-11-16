@@ -39,7 +39,9 @@ function Home() {
         <button id='dwnloadbbtn' className='btn btn'><a href={resume} download="Alvin_Joy_Resume.pdf">
   Download CV
 </a></button>
-        <button id='contactbbtn' className='btn btn' onClick={() => {
+        <button id='contactbbtn' className='btn btn' onClick={(e) => {
+          e.preventDefault();
+          debugger
     document.getElementById("fullcontactpage")
       ?.scrollIntoView({ behavior: "smooth" });
   }} >Contact Me</button>
