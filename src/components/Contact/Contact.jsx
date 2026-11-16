@@ -119,9 +119,9 @@ function Contact() {
 
         </div>
 
-        {/* RIGHT SIDE */}
+        {/* RIGHT SIDE Commented till backend dev ccompleted*/}
 
-        <div id="rightside">
+        {/* <div id="rightside">
 
           <form onSubmit={handleSubmit}>
 
@@ -157,7 +157,7 @@ function Contact() {
 
           </form>
 
-        </div>
+        </div> */}
 
       </div>
     </div>
